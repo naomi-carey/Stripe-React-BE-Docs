@@ -267,9 +267,9 @@ One transaction should post a token and the next will post a charge. Both the to
 
 ## Related Articles:
 
-<a href="https://stripe.com/docs">Stripe Payment Documentation</a>
-<a href="https://stripe.com/docs/payments?payments=popular">Types of Stripe Payments</a>
-<a href="https://stripe.com/en-es/payments/payment-methods-guide">Guide to Payment Methods</a>
+- <a href="https://stripe.com/docs">Stripe Payment Documentation</a>
+- <a href="https://stripe.com/docs/payments?payments=popular">Types of Stripe Payments</a>
+- <a href="https://stripe.com/en-es/payments/payment-methods-guide">Guide to Payment Methods</a>
 
 ## [:top:](#table-of-contents)
 
