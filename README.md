@@ -223,7 +223,7 @@ const configureRoutes = (app) => {
 module.exports = configureRoutes;
 ```
 
-## #starting-the-backend
+## starting-the-backend
 
 14. This completes the backend setup. Now go to the backend’s root directory and start the server.
 
@@ -272,5 +272,3 @@ One transaction should post a token and the next will post a charge. Both the to
 - <a href="https://stripe.com/en-es/payments/payment-methods-guide">Guide to Payment Methods</a>
 
 ## [:top:](#table-of-contents)
-
-## set-up-frontend
