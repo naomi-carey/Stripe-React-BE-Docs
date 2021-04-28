@@ -14,6 +14,7 @@
 - Configuration of backend
 - Testing of payments system (frontend & backend)
 - Verify successful payment
+
   </i>
   <br />
   <br />
