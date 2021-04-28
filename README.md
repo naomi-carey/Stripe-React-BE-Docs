@@ -7,11 +7,12 @@
   <p align="center">
     <i>
     This checklist will set up and integrate the stripe payment system within React.   We will complete the following:
+      
+      
 
-- Set up and configuration of backend
-
+- Set up of backend
+- Configuration of backend
 - Testing of payments system (frontend & backend)
-
 - Verify successful payment
   </i>
   <br />
