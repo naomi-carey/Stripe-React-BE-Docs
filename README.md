@@ -117,7 +117,7 @@ module.exports =
 ---
 
 **NOTE**
-When the application is ready to deploy add the frontend production URLs on line 4 and 5. For testing purposes add http://localhost:3000 in both areas.
+When the application is ready to deploy add the frontend production URLs to the following lines "FRONTEND_PROD_URLS" and "FRONTEND_DEV_URLS". For testing purposes add http://localhost:3000 in both areas.
 
 ---
 
