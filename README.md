@@ -136,7 +136,7 @@ const SERVER_CONFIGS = {
 module.exports = SERVER_CONFIGS;
 ```
 
-10. In the **constants/stripe.js** file add following code. This file contains the stripe credentials. Please update lines 4 & 5 with the secret keys found in the stripe dashboard. This part will remain confidential in the backend. Do not share these keys with anyone.
+10. In the **constants/stripe.js** file add the following code. This file contains the stripe credentials. Please update lines 4 & 5 with the secret keys found in the stripe dashboard. This part will remain confidential in the backend. Do not share these keys with anyone.
 
 ```javascript
 const configureStripe = require("stripe");
