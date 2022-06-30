@@ -10,7 +10,7 @@
       
       
 
-- Set up of the backend
+- Set up the backend
 - Configure the backend
 - Test the payments system (frontend & backend)
 - Verify successful payment
