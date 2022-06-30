@@ -29,7 +29,7 @@
 # Table of Contents
 
 - [Setting up the Backend ](#set-up-backend)
-  - [Starting the Backend ](#starting-the-backend)
+  - [Start the Backend ](#starting-the-backend)
   - [Verify successful payment](#verify-success-payment)
 
 </br>
