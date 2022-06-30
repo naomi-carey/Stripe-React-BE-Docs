@@ -154,7 +154,7 @@ module.exports = stripe;
 ---
 
 **NOTE**
-Best practice is to hide the secret API keys in the .env file and replace lines 4 & 5 with “process.env.REACT_APP_STRIPE_KEY“. Then enter the secret API keys in the .env file.
+Best practice is to hide the secret API keys in the .env file and replace "sk_live_MY_SECRET_KEY" and "sk_test_MY_SECRET_KEY" with “process.env.REACT_APP_STRIPE_KEY“. Then enter the secret API keys in the .env file.
 
 ---
 
