@@ -6,15 +6,9 @@
 
   <p align="center">
     <i>
-    This checklist will complete the set up and integrate the stripe payment system within React.   We will complete the following:
+    This checklist will complete the set up and integrate the stripe payment system within React.  You should have already completed the <a href="https://github.com/naomi-carey/Stripe-React-FE-Docs">frontend</a> checklist before the below steps.
       
       
-
-- Set up the backend
-- Configure the backend
-- Test the payments system (frontend & backend)
-- Verify successful payment
-
   </i>
   <br />
   <br />
@@ -43,7 +37,7 @@ cd ~/react-stripe-test
 mkdir backend && cd backend
 ```
 
-2. Install Express, Cross-Origin Resource Sharing (CORS), body-parser and Stripe.  Express is web the application server framework, CORS is an HTTP-header based mechanism that allows a server to indicate origins (domain, scheme, or port) from which a browser should permit loading resources and body-parser is the Node. js body parsing middleware.
+2. Install <a href="https://www.npmjs.com/package/express">Express</a>, <a href="https://www.npmjs.com/package/cors">CORS</a>, <a href="https://www.npmjs.com/package/body-parser">body-parser</a> and <a href="https://www.npmjs.com/package/stripe">Stripe</a>. 
 
 ```
 npm init -y
@@ -62,7 +56,7 @@ touch index.js and server.js
 mkdir constants routes
 ```
 
-5. Navigate to the **constants** directory and create **\*frontend.js**, **server.js**, and **stripe.js** files.
+5. Navigate to the **constants** directory and create **frontend.js**, **server.js**, and **stripe.js** files.
 
 ```
 cd constants
@@ -136,7 +130,7 @@ const SERVER_CONFIGS = {
 module.exports = SERVER_CONFIGS;
 ```
 
-10. In the **constants/stripe.js** file add the following code. This file contains the stripe credentials. Please update lines 4 & 5 with the secret keys found in the stripe dashboard. This part will remain confidential in the backend. Do not share these keys with anyone.
+10. In the **constants/stripe.js** file add the following code. This file contains the stripe credentials. Please update lines "sk_live_MY_SECRET_KEY" and "sk_test_MY_SECRET_KEY" with the secret keys found in the stripe dashboard. This part will remain confidential in the backend. Do not share these keys with anyone.
 
 ```javascript
 const configureStripe = require("stripe");
