@@ -6,7 +6,7 @@
 
   <p align="center">
     <i>
-    This checklist will set up and integrate the stripe payment system within React.   We will complete the following:
+    This checklist will complete the set up and integrate the stripe payment system within React.   We will complete the following:
       
       
 
@@ -19,18 +19,18 @@
   <br />
   <br />
   <p align="center">
-  <a href="https://github.com/naomi-carey/Stripe-React-FE-Docs">Front End</a>
+  <a href="https://github.com/naomi-carey/Stripe-React-FE-Docs">Frontend</a>
   ·
-  <a href="https://github.com/naomi-carey/Stripe-React-BE-Docs">Back End</a>
+  <a href="https://github.com/naomi-carey/Stripe-React-BE-Docs">Backend</a>
 
 </p>
 </br>
 
 # Table of Contents
 
-- [Setting up the Backend ](#set-up-backend)
-  - [Start the Backend ](#starting-the-backend)
-  - [Verify successful payment](#verify-success-payment)
+- [Set up the backend ](#set-up-backend)
+- [Start the backend ](#starting-the-backend)
+- [Verify successful payment](#verify-success-payment)
 
 </br>
 
@@ -43,7 +43,7 @@ cd ~/react-stripe-test
 mkdir backend && cd backend
 ```
 
-2. Install Express, Cors, body-parser and stripe.
+2. Install Express, Cross-Origin Resource Sharing (CORS), body-parser and Stripe.  Express is web the application server framework, CORS is an HTTP-header based mechanism that allows a server to indicate origins (domain, scheme, or port) from which a browser should permit loading resources and body-parser is the Node. js body parsing middleware.
 
 ```
 npm init -y
@@ -116,7 +116,7 @@ module.exports =
 
 ---
 
-**NOTE**
+**NOTE:**
 When the application is ready to deploy add the frontend production URLs to the following lines "FRONTEND_PROD_URLS" and "FRONTEND_DEV_URLS". For testing purposes add http://localhost:3000 in both areas.
 
 ---
@@ -153,7 +153,7 @@ module.exports = stripe;
 
 ---
 
-**NOTE**
+**NOTE:**
 Best practice is to hide the secret API keys in the .env file and replace "sk_live_MY_SECRET_KEY" and "sk_test_MY_SECRET_KEY" with “process.env.REACT_APP_STRIPE_KEY“. Then enter the secret API keys in the .env file.
 
 ---
